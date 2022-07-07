@@ -1,0 +1,10 @@
+
+
+we need to compile Rust to WebAssembly code
+WebAssebly can be executed in the browser
+it runs at native speed
+3d apps, cad, virtual reality, system application, games
+something that has to do a lot of stuff, requires a lot of resources, performant
+
+write your backend code and it will take care of data/processing of data in Rust/WebAssembly
+Front end will display this data on the screen
