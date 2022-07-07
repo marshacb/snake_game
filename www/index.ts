@@ -152,7 +152,6 @@ init().then((wasm) => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       world.step();
       paint();
-      // the method takes a callback to be invoked before the next repaint
       requestAnimationFrame(play);
     }, 1000 / fps);
   }
